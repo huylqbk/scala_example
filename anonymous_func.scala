@@ -1,4 +1,7 @@
 object anonymous_func extends App {
+  val sum = (a1:Int,b1:Int) => a1+b1
+  println(sum(1,2))
+
   val ints = List(1,2,3,4)
   println(ints)
 
